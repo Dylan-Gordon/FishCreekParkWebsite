@@ -1,0 +1,69 @@
+html {
+    background-image: url('fishcreek.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body, html {
+    height:100%;
+}
+
+.bg {
+    background-image: url('fishcreek.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a.header {
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+}
+
+ul.header{
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    padding-left: 100px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+
+li.header {
+    display: inline;
+    text-align: center;
+    color: antiquewhite;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.3);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th {
+    font-size: 25px;
+    padding: 10px
+}
+
+tr {
+    font-size: 20px;
+    text-align: center;
+}
