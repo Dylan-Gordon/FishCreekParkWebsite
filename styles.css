@@ -15,18 +15,20 @@ body, html {
     background-size: cover;
 }
 
+.header {
+    color: antiquewhite;
+    padding: 0;
+}
+
 a.header {
     text-decoration: none;
-    color: antiquewhite;
     text-align: center;
     font-size: 30px;
-    padding: 0;
 }
 
 ul.header{
     list-style-type: none;
     margin: 10;
-    padding: 0;
     padding-left: 100px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
 }
@@ -34,7 +36,6 @@ ul.header{
 li.header {
     display: inline;
     text-align: center;
-    color: antiquewhite;
     padding-left: 2%;
     padding-right: 2%;
 }
