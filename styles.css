@@ -39,7 +39,7 @@ li.header {
     padding-right: 2%;
 }
 
-li:hover {
+li.header:hover {
     text-decoration: underline;
 }
 
